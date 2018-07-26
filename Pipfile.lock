@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "104e3d5e764d7211bf1f3e3cb7808f361ebded8f85fe3d20b326a9f0e523310c"
+            "sha256": "38130e4b2200f6bc3e2ffbcf5b99231c648af3c2baa55bef25b0f995bd51b2fa"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -15,7 +15,12 @@
             }
         ]
     },
-    "default": {},
+    "default": {
+        "laxleague": {
+            "editable": true,
+            "path": "."
+        }
+    },
     "develop": {
         "atomicwrites": {
             "hashes": [
