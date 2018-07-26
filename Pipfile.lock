@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "38130e4b2200f6bc3e2ffbcf5b99231c648af3c2baa55bef25b0f995bd51b2fa"
+            "sha256": "db37f3f67665ff1c095b52a70e0aefe339cb22dcd1dd6f52e3b3f1761dcedd65"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.6"
+            "python_version": "3.7"
         },
         "sources": [
             {
@@ -15,12 +15,7 @@
             }
         ]
     },
-    "default": {
-        "laxleague": {
-            "editable": true,
-            "path": "."
-        }
-    },
+    "default": {},
     "develop": {
         "atomicwrites": {
             "hashes": [
@@ -41,6 +36,10 @@
                 "sha256:f5b0a686ff21f820c4d3f0c4edd216704cea59d79d00fa337e244a2f2ff83ed6"
             ],
             "version": "==0.6"
+        },
+        "laxleague": {
+            "editable": true,
+            "path": "."
         },
         "mako": {
             "hashes": [
@@ -81,6 +80,7 @@
                 "sha256:d345c8fe681115900d6da8d048ba67c25df42973bda370783cd58826442dcd7c",
                 "sha256:e160a7fcf25762bb60efc7e171d4497ff1d8d2d75a3d0df7a21b76821ecbf5c5"
             ],
+            "markers": "python_version != '3.0.*' and python_version != '3.3.*' and python_version != '3.2.*' and python_version != '3.1.*' and python_version >= '2.7'",
             "version": "==0.6.0"
         },
         "py": {
@@ -88,7 +88,7 @@
                 "sha256:3fd59af7435864e1a243790d322d763925431213b6b8529c6ca71081ace3bbf7",
                 "sha256:e31fb2767eb657cbde86c454f02e99cb846d3cd9d61b318525140214fdc0e98e"
             ],
-            "markers": "python_version != '3.0.*' and python_version != '3.2.*' and python_version >= '2.7' and python_version != '3.1.*' and python_version != '3.3.*'",
+            "markers": "python_version != '3.0.*' and python_version != '3.3.*' and python_version != '3.2.*' and python_version != '3.1.*' and python_version >= '2.7'",
             "version": "==1.5.4"
         },
         "pytest": {

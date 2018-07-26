@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-laxleague = {editable = true, path = "."}
 
 [dev-packages]
+laxleague = {editable = true, path = "."}
 pytest = "*"
 pytest-bdd = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
