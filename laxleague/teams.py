@@ -18,4 +18,6 @@ class Team:
     players: Dict[str, Player] = field(default_factory=make_players)
 
     def add_player(self, player: Player):
+        if player.id in self.players:
+            raise KeyError(f'Player exists with id "{player.id}"')
         self.players[player.id] = player
