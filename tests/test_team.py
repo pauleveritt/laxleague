@@ -9,8 +9,8 @@ def test_with_default_players(green):
     assert 20 == len(green.players)
 
 
-def test_exception_on_duplicate(green, mary):
+def test_exception_on_duplicate(green, player_one):
     with pytest.raises(KeyError):
-        green.add_player(mary)
+        green.add_player(player_one)
 
 
