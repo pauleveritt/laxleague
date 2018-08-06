@@ -1,6 +1,5 @@
 from pytest_bdd import scenario, given, when, then, parsers
 
-from laxleague.games import Game
 from laxleague.teams import Team
 
 
@@ -20,8 +19,8 @@ def red():
 
 
 @given('a game between them')
-def game_red_blue(blue, red):
-    return Game(home_team=blue, visitor_team=red)
+def game_red_blue(game_type, blue, red):
+    return game_type(home_team=blue, visitor_team=red)
 
 
 @when(parsers.parse('the score is {home:d} for Blue to {visitor:d} for Red'))

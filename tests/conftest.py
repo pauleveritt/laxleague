@@ -33,7 +33,7 @@ def player_one() -> Player:
     yield Player(first_name='player_one', last_name='Smith', jersey=10)
 
 
-@pytest.fixture()
+@pytest.fixture
 def team_empty(player_one):
     yield Team('empty')
 
@@ -59,7 +59,12 @@ def another_team():
     yield team
 
 
-@pytest.fixture()
+@pytest.fixture
 def game_blue_at_green(green, blue):
     # Green is home, Blue is visitor
     yield Game(home_team=green, visitor_team=blue)
+
+
+@pytest.fixture
+def game_type():
+    return Game
