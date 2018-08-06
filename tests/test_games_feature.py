@@ -5,7 +5,7 @@ from laxleague.teams import Team
 
 
 @scenario('games.feature', 'Determine The Winner')
-def test_games_feature(game_red_blue, blue):
+def test_games_feature():
     pass
 
 
