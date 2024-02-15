@@ -1,11 +1,11 @@
-from laxleague.players import Player
+from src.laxleague.players import Player
 
 
 def test_constructor():
-    p = Player(first_name='Jane', last_name='Jones', jersey=11)
+    p = Player(first_name='Jane', last_name='Smit', jersey=11)
     assert 'Jane' == p.first_name
-    assert 'Jones' == p.last_name
-    assert 'jones-jane-11' == p.id
+    assert 'Smith' == p.last_name
+    assert 'smith-jane-11' == p.id
 
 
 def test_another_player(player_one):

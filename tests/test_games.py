@@ -1,6 +1,6 @@
 import pytest
 
-from laxleague.games import Game
+from src.laxleague.games import Game
 
 
 def test_construction(green, blue):

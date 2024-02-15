@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Dict
 
-from laxleague.players import Player
+from src.laxleague.players import Player
 
 
 class Teams:

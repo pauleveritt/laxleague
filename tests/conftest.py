@@ -2,9 +2,9 @@ from random import choice, randint
 
 import pytest
 
-from laxleague.games import Game
-from laxleague.players import Player
-from laxleague.teams import Team
+from src.laxleague.games import Game
+from src.laxleague.players import Player
+from src.laxleague.teams import Team
 
 FIRST_NAMES = (
     'player_one', 'Sue', 'Aja', 'Li', 'Barb', 'Emma', 'Sam', 'Jala',

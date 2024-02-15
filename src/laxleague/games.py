@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Optional, Union
 
-from laxleague.teams import Team
+from src.laxleague.teams import Team
 
 
 @dataclass
@@ -11,9 +11,10 @@ class Game:
     home_score: Optional[int] = None
     visitor_score: Optional[int] = None
 
-    def record_score(self, home_score: int, visitor_score: int):
+    def record_score(self, home_score: int, visitor_score: int) -> object:
         self.home_score = home_score
         self.visitor_score = visitor_score
+        return 1
 
     @property
     def winner(self) -> Union[Team, None]:
