@@ -2,7 +2,7 @@ from src.laxleague.players import Player
 
 
 def test_constructor():
-    p = Player(first_name='Jane', last_name='Smit', jersey=11)
+    p = Player(first_name='Jane', last_name='Smith', jersey=11)
     assert 'Jane' == p.first_name
     assert 'Smith' == p.last_name
     assert 'smith-jane-11' == p.id
